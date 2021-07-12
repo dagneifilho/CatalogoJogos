@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApiCatalogoJogos.ViewModel {
-    public class JogoVeiwModel {
+    public class JogoViewModel {
 
         public Guid Id { get; set; }
         public string Nome { get; set; }
