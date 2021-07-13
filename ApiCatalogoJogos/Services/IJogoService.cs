@@ -7,7 +7,7 @@ using ApiCatalogoJogos.ViewModel;
 
 
 namespace ApiCatalogoJogos.Services {
-    interface IJogoService {
+     public interface IJogoService{
         Task<List<JogoViewModel>> Obter(int pagina, int quantidade);
         Task<JogoViewModel> Obter(Guid id);
         Task<JogoViewModel> Inserir(JogoInputModel jogo);
